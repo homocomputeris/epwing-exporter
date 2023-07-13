@@ -5,7 +5,7 @@ include(FetchContent)
 
 FetchContent_Declare(
     eb
-    URL ftp://ftp.sra.co.jp/pub/misc/eb/eb-4.4.3.tar.bz2
+    URL https://github.com/mistydemeo/eb/releases/download/v4.4.3/eb-4.4.3.tar.bz2
     URL_HASH SHA256=abe710a77c6fc3588232977bb2f30a2e69ddfbe9fa8d0b05b0d67d95e36f4b5f
     TIMEOUT 120
     PATCH_COMMAND patch -p0 < ${CMAKE_SOURCE_DIR}/third_party/match.c.patch
